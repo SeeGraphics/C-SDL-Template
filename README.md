@@ -1,4 +1,4 @@
-# Raycast3 (SDL2 Template)
+# SDL2 Template
 
 Minimal SDL2 C project set up template.
 
