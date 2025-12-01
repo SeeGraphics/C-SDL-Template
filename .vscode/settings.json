@@ -2,6 +2,6 @@
     "code-runner.runInTerminal": true,
     "code-runner.showRunIconInEditorTitleMenu": true,
     "code-runner.executorMap": {
-        "c": "cd $workspaceRoot && if [ ! -f build/CMakeCache.txt ]; then cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=${VCPKG_ROOT:-$HOME/dev/vcpkg}/scripts/buildsystems/vcpkg.cmake; fi && cmake --build build && ./build/raycast3"
+        "c": "cd $workspaceRoot && if [ ! -f build/CMakeCache.txt ]; then cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=${VCPKG_ROOT:-$HOME/dev/vcpkg}/scripts/buildsystems/vcpkg.cmake; fi && cmake --build build && ./build/game"
     }
 }
