@@ -10,7 +10,7 @@ endif()
 
 project(game C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 find_package(SDL2 CONFIG REQUIRED)
@@ -20,4 +20,4 @@ add_executable(game
 )
 
 target_link_libraries(game PRIVATE SDL2::SDL2)
-target_compile_features(game PRIVATE c_std_11)
+target_compile_features(game PRIVATE c_std_17)
