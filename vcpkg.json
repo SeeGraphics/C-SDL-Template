@@ -1,5 +1,5 @@
 {
-    "name": "raycast3",
+    "name": "sdl-window",
     "version-string": "0.1.0",
     "dependencies": [
         "sdl2"
